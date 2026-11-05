@@ -1,0 +1,32 @@
+# 临时下载与诊断产物，不入库
+.cache/
+tools/dl/
+*.log
+*.json.lock
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器与系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 打包产物
+build/
+dist/
+*.spec
+
+# 现编的虚拟屏工具：make_app.sh 每次用 clang 从 native/vdisplay.m 重新编译
+native/vdisplay
+
+# 工作区笔记，只留本地
+.workbuddy/
+
+# 用户个性化配置（按键映射等），只留本地
+user_config.json
